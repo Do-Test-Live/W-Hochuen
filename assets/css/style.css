@@ -8,6 +8,14 @@
     --color-gray: #7f7f7f;
 }
 
+.hoc-text-primary{
+    color: var(--color-primary);
+}
+
+.hoc-text-info{
+    color: var(--color-cyan);
+}
+
 .hoc-header-top{
     background-color: var(--color-cyan);
     color: var(--color-white);
@@ -27,4 +35,92 @@
     padding-left: 4.5rem;
     padding-right: 4.5rem;
     text-align: center;
+}
+
+.hoc-banner{
+    background-image: url("../images/hero banner/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.hoc-banner h1{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: right;
+    color: var(--color-primary);
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.hoc-banner p{
+    background: rgba(255, 255, 255, 0.5);
+    color: var(--color-primary);
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hoc-btn-primary{
+    padding: 5px 5rem;
+    border-radius: unset;
+    background-color: var(--color-primary);
+    border: unset;
+}
+
+.hoc-project-card{
+    background: var(--color-black);
+    margin-top: -5rem;
+}
+
+.hoc-project-card h3{
+    color: var(--color-white);
+}
+
+.hoc-btn-info{
+    background-color: var(--color-cyan);
+    border-radius: unset;
+    border: unset;
+    padding: 5px 5rem;
+}
+
+.hoc-led-list-1, .hoc-led-list-2{
+    list-style: none;
+}
+
+.hoc-led-list-1 li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hoc-led-list-2 li{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.hoc-card{
+    height: 300px;
+    border: 3px solid var(--color-primary);
+    padding-left: 25px;
+}
+
+.hoc-card h4{
+    font-weight: bolder;
+}
+
+.hoc-contact h3{
+    font-weight: bolder;
+}
+
+.hoc-contact p{
+    font-size: 18px;
+}
+
+.hoc-contact .form-control{
+    background: #f2f2f2;
+    border: 2px solid #d9d9d9;
 }
